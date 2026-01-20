@@ -6,14 +6,15 @@ baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
-
+  - jekyll-sitemap
+  
 # Appearance
 minimal_mistakes_skin: "dark"   # modern & clean
 locale: "en-CA"
 
 # Author sidebar
 author:
-  name: "Martin Machtl Perfler"
+  name: "Martin <i>Machtl</i> Perfler"
   avatar: "/assets/img/machtl_profile.jpeg"   # optional
   bio: >-
     Snow crystals take a long path before falling onto our beautiful mountain landscapes
@@ -23,7 +24,7 @@ author:
     I ended up here, somewhere between mountains and code...<br><br>
     + Snow and Avalanches <br>
     + Model development <br>
-    + Mountains
+    + Mountains, Skiing, Paragliding 
 
 
   location: "Squamish, Canada"
