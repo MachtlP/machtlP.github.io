@@ -4,6 +4,7 @@ url: "https://machtlp.github.io"
 baseurl: ""
 
 theme: minimal-mistakes-jekyll
+remote_theme: null
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
@@ -63,3 +64,5 @@ defaults:
     values:
       layout: single
       author_profile: true
+include:
+  - _pages
