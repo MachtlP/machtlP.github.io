@@ -1,9 +1,7 @@
 ---
-title: "About"
+title: "My life in a nutshell"
 permalink: /about/
 ---
-
-## My life in a nutshell
 
 - Grew up in Tyrol, Austria, where snow and mountains quietly shaped who I am  
 - Pursued a career as an engineer, eventually performing qualification tests on spacecraft  
