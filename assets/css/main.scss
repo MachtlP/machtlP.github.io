@@ -8,10 +8,13 @@
 /* === Your custom styles go below === */
 
 .icon-inline {
-  height: 2em;              /* twice the size */
-  vertical-align: middle;
-  margin-left: 0.6rem;      /* space from text */
+  height: 2em;
+  background: rgba(255,255,255,0.95);
+  padding: 0.35em;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
 }
+
 
 .line-with-icon {
   display: flex;

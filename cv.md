@@ -16,7 +16,6 @@ header:
   </span>
   <img src="/assets/img/icons/SFU.png" class="icon-inline" alt="SFU">
 </div>
-
 - SNOWPACK modeling
 
 
@@ -25,25 +24,90 @@ header:
 
 
 
-### MSc in Atmospheric Sciences  
-**Sep 2019 – Apr 2024** · University of Innsbruck, Austria
-    Department of Atmospheric and Cryospheric Science [(ACINN)](https://www.uibk.ac.at/en/acinn/)
+### MSc in Atmospheric Sciences
+<div class="line-with-icon">
+  <span>
+    <strong>Sep 2019 – Apr 2024</strong> · University of Innsbruck, Austria<br>
+    Department of Atmospheric and Cryospheric Science (<a href="https://www.uibk.ac.at/en/acinn/">ACINN</a>)
+  </span>
+  <img src="/assets/img/icons/uibk.png" class="icon-inline" alt="SFU">
+</div>  
+
 - **Thesis:**  
   *Towards an objective avalanche forecast:  
   Region clustering and automated avalanche problem identification to assist the forecasters’ workflow*
 
 ### MSc Course: Snow & Avalanche Dynamics  
-**Mar 2023 – Apr 2023** · UNIS, Longyearbyen, Svalbard  [(UNIS)](https://www.unis.no)
+<div class="line-with-icon">
+  <span>
+    <strong>Mar 2023 – Apr 2023</strong> · UNIS, Longyearbyen, Svalbard<br>
+  (<a href="https://www.unis.no"> UNIS </a>)
+  </span>
+  <img src="/assets/img/icons/unis.png" class="icon-inline" alt="UNIS">
+</div> 
+
+
 
 ### BSc in Environmental, Process & Energy Engineering  
-**Sep 2013 – Sep 2016** · MCI, Innsbruck, Austria [(UVET)](https://www.mci.edu/en/study/bachelor/environmental-process-energy-engineering)  
+<div class="line-with-icon">
+  <span>
+    <strong>Sep 2013 – Sep 2016</strong> ·  MCI, Innsbruck, Austria<br>
+    Department of Environmental, Process & Energy Engineering (<a href="https://www.mci.edu/en/study/bachelor/environmental-process-energy-engineering">UVET</a>)
+  </span>
+  <img src="/assets/img/icons/mci.png" class="icon-inline" alt="MCI">
+</div> 
+
 - **Thesis:**  
   Influence of pneumatic dosing on particle size distribution of test dusts and investigation of centrifugal separator performance  
 
-### High School (Mechanical Engineering)  
-**Sep 2006 – Jun 2011** · Higher Technical Institute, Innsbruck, Austria [HTL](https://htlinn.ac.at/ausbildung/maschinenbau-robotic-centre/hoehere-abteilung)  
+### High School (Mechanical Engineering)
+<div class="line-with-icon">
+  <span>
+    <strong>Sep 2006 – Jun 2011</strong> ·  Higher Technical Institute, Innsbruck, Austria<br>
+    (<a href="https://htlinn.ac.at/ausbildung/maschinenbau-robotic-centre/hoehere-abteilung">HTL</a>)
+  </span>
+  <img src="/assets/img/icons/htl.png" class="icon-inline" alt="HTL">
+</div> 
 
 ---
+<div class="work-experience">
+
+  <div class="work-column">
+    <h3>Snow & Avalanche</h3>
+
+    <div class="work-entry">
+      <strong>Sep 2024 – Present</strong><br>
+      Simon Fraser University — Avalanche Research Program<br>
+      <em>SNOWPACK modelling, avalanche forecasting, field studies</em>
+    </div>
+
+    <div class="work-entry">
+      <strong>2021 – 2024</strong><br>
+      Avalanche Warning Service Tyrol<br>
+      <em>Operational forecasting, field observations</em>
+    </div>
+  </div>
+
+  <div class="work-column">
+    <h3>Engineering & Technology</h3>
+
+    <div class="work-entry">
+      <strong>2019 – 2021</strong><br>
+      Aerospace Engineering Project<br>
+      <em>Systems engineering, hardware integration</em>
+    </div>
+
+    <div class="work-entry">
+      <strong>2016 – 2019</strong><br>
+      Mechanical Engineering Role<br>
+      <em>Design, testing, manufacturing</em>
+    </div>
+  </div>
+
+</div>
+
+
+
 ## Work Experience
 
 ### R&D SNOWPACK Modeler *(Freelancer)*  
