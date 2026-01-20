@@ -1,6 +1,9 @@
 ---
 title: "CV"
 permalink: /cv/
+classes: wide
+header: 
+    overlay_image: "/assets/header/Ginpeak.jpg"
 ---
 
 ## Education
