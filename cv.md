@@ -3,37 +3,47 @@ title: "CV"
 permalink: /cv/
 classes: wide
 header: 
-    overlay_image: "./assets/img/header/Ginpeak.jpg"
+    overlay_image: "./assets/img/header/facet.jpg"
 ---
-
-## Education
-PhD — Simon Fraser University (2025– )
 
 ## Academic Education
 
 ### PhD in Geography *(Snow Science)*  
-**Sep 2024 – Present** · Simon Fraser University, Vancouver, Canada  
-- SFU Avalanche Research Program (SARP)  
-- SNOWPACK modeling  
+<div class="line-with-icon">
+  <span>
+    <strong>Sep 2024 – Present</strong> · Simon Fraser University, Vancouver, Canada<br>
+    SFU Avalanche Research Program (<a href="https://sfuarp.ca/">SARP</a>)
+  </span>
+  <img src="/assets/img/icons/SFU.png" class="icon-inline" alt="SFU">
+</div>
+
+- SNOWPACK modeling
+
+
+
+
+
 
 
 ### MSc in Atmospheric Sciences  
-**Sep 2019 – Apr 2024** · University of Innsbruck, Austria  
+**Sep 2019 – Apr 2024** · University of Innsbruck, Austria
+    Department of Atmospheric and Cryospheric Science [(ACINN)](https://www.uibk.ac.at/en/acinn/)
 - **Thesis:**  
   *Towards an objective avalanche forecast:  
   Region clustering and automated avalanche problem identification to assist the forecasters’ workflow*
 
 ### MSc Course: Snow & Avalanche Dynamics  
-**Mar 2023 – Apr 2023** · UNIS, Longyearbyen, Svalbard  
+**Mar 2023 – Apr 2023** · UNIS, Longyearbyen, Svalbard  [(UNIS)](https://www.unis.no)
 
 ### BSc in Environmental, Process & Energy Engineering  
-**Sep 2013 – Sep 2016** · MCI, Innsbruck, Austria  
+**Sep 2013 – Sep 2016** · MCI, Innsbruck, Austria [(UVET)](https://www.mci.edu/en/study/bachelor/environmental-process-energy-engineering)  
 - **Thesis:**  
   Influence of pneumatic dosing on particle size distribution of test dusts and investigation of centrifugal separator performance  
 
 ### High School (Mechanical Engineering)  
-**Sep 2006 – Jun 2011** · Higher Technical Institute, Innsbruck, Austria  
+**Sep 2006 – Jun 2011** · Higher Technical Institute, Innsbruck, Austria [HTL](https://htlinn.ac.at/ausbildung/maschinenbau-robotic-centre/hoehere-abteilung)  
 
+---
 ## Work Experience
 
 ### R&D SNOWPACK Modeler *(Freelancer)*  
@@ -65,19 +75,26 @@ PhD — Simon Fraser University (2025– )
 
 ## Publications & Talks
 
+**2025**
+- Talk: CAA Spring Meeting, Penticton, BC, Canda
+    Simon Horton, Martin Perfler, Florian Herla -*Advancing Snowpack Models: Current Forecasting Tools and the Path Ahead*
+    [(Recordings)](https://www.avalancheassociation.ca/general/custom.asp?page=SpringConfHomepage2025)
+- Talk: Bend Snow and Avalanche Workshop, Oregon, USA 
+
 **2024**  
-- Perfler et al. — *Unveiling spatial patterns in avalanche bulletins: clustering analysis of micro-regions using Snowgrid*, ISSW 2024, Tromsø, Norway  
-- Herla et al. — *Synthesizing regional snowpack stability and avalanche problems in the operational AWSOME framework*, ISSW 2024 *(Co-author)*  
-- Binder et al. — *Initializing and evaluating snowpack simulations with recurring snow profile observations*, ISSW 2024 *(Co-author)*  
+- Perfler et al. — *Unveiling spatial patterns in avalanche bulletins: clustering analysis of micro-regions using Snowgrid*, ISSW 2024, Tromsø, Norway [(Paper)](https://arc.lib.montana.edu/snow-science/objects/ISSW2024_P1.5.pdf)
+- Herla et al. — *Synthesizing regional snowpack stability and avalanche problems in the operational AWSOME framework*, ISSW 2024 *(Co-author)*  [(Paper)](https://arc.lib.montana.edu/snow-science/objects/ISSW2024_P1.33.pdf)
+- Binder et al. — *Initializing and evaluating snowpack simulations with recurring snow profile observations*, ISSW 2024 *(Co-author)*  [(Paper)](https://arc.lib.montana.edu/snow-science/objects/ISSW2024_O3.10.pdf)
 
 **2023**  
-- Perfler et al. — *Assessing avalanche problems for operational avalanche forecasting based on different model chains*, ISSW 2023, Bend, Oregon  
+- Perfler et al. — *Assessing avalanche problems for operational avalanche forecasting based on different model chains*, ISSW 2023, Bend, Oregon [(Paper)](https://arc.lib.montana.edu/snow-science/objects/ISSW2023_O4.05.pdf)
 - Talk: ISSW 2023, Bend, Oregon  
 
 **2022**  
 - Talk: IGS Symposium, Davos, Switzerland  
 
----## Certificates & Training
+---
+## Certificates & Training
 
 - **40h Wilderness First Aid** — Vancouver, BC (Mar 2025)  
 - **Drone-supported avalanche commission work** — Franz Senn Hut, Tyrol (2022–2023)  
@@ -85,20 +102,25 @@ PhD — Simon Fraser University (2025– )
 - **Ski Resort Avalanche Commission Work** — Obertilliach, Tyrol (Jan 2022)  
 - **Avalanche Search, Rescue & First Aid** — Galtür, Tyrol (Dec 2021)  
 
+---
 ## Awards & Grants
 
-- **Young Snow Professional Award** — Austrian Association for Snow and Avalanches (2023)
+- **Young Snow Professional Award** — Austrian Association for Snow and Avalanches (2023) [(YSP)](https://www.oegsl.at/ysp/)
 
 ---
 
 ## Languages
 
-:   German  &ensp;&nbsp;&nbsp;   <i class="fa fa-star"></i>
-                                 <i class="fa fa-star"></i>
-                                 <i class="fa fa-star icon-inline"></i> )
-:   English &ensp;&nbsp;&nbsp;  <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half-alt icon-inline"></i>  (C1)
+German &nbsp;&nbsp;
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i> (native)
+
+English &nbsp;&nbsp;
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i> (C1)
+
 ---
 
 ## Programming & Tools
