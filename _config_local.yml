@@ -1,0 +1,65 @@
+title: "Martin Perfler"
+description: "Snow • Mountains • Research • Code"
+url: "https://machtlp.github.io"
+baseurl: ""
+
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+
+# Appearance
+minimal_mistakes_skin: "dark"   # modern & clean
+locale: "en-CA"
+
+# Author sidebar
+author:
+  name: "Martin <i>Machtl</i> Perfler"
+  avatar: "/assets/img/machtl_profile.jpeg"   # optional
+  bio: >-
+    Snow crystals take a long path before falling onto our beautiful mountain landscapes
+    and to be ready to draw a line in.<br>
+    My path has led me from engineering and tightening screws on spacecraft to
+    the question, <i>Is this the line I want to take?</i>. Following my inner call for snow,
+    I ended up here, somewhere between mountains and code...<br><br>
+    + Snow and Avalanches <br>
+    + Model development <br>
+    + Mountains, Skiing, Paragliding 
+
+
+  location: "Squamish, Canada"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:martin_perfler@sfu.ca"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/machtlp"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/machtl"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/ma.machtl/"
+
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      toc: false
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

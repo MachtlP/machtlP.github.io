@@ -3,7 +3,7 @@ title: "CV"
 permalink: /cv/
 classes: wide
 header: 
-    overlay_image: "../assets/header/Ginpeak.jpg"
+    overlay_image: "./assets/img/header/Ginpeak.jpg"
 ---
 
 ## Education
@@ -93,9 +93,9 @@ PhD — Simon Fraser University (2025– )
 
 ## Languages
 
-:   German &ensp;  <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star icon-inline"></i>  (Native language)
+:   German  &ensp;&nbsp;&nbsp;   <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star icon-inline"></i> )
 :   English &ensp;&nbsp;&nbsp;  <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star-half-alt icon-inline"></i>  (C1)
@@ -115,9 +115,3 @@ PhD — Simon Fraser University (2025– )
 </p>
 
 ---
-
-## Programming & Tools
-- **LaTeX**  
-- **Python**  
-- **R** (basic)  
-- **MATLAB** (basic)  
