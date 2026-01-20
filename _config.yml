@@ -3,7 +3,7 @@ description: "Snow • Mountains • Research • Code"
 url: "https://machtlp.github.io"
 baseurl: ""
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
