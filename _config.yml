@@ -8,25 +8,36 @@ plugins:
   - jekyll-include-cache
 
 # Appearance
-minimal_mistakes_skin: "air"   # modern & clean
+minimal_mistakes_skin: "dark"   # modern & clean
 locale: "en-CA"
 
 # Author sidebar
 author:
-  name: "Your Name"
-  avatar: "/assets/img/avatar.jpg"   # optional
-  bio: "PhD researcher working on snowpack modelling, avalanche forecasting, and mountain systems."
-  location: "Canada"
+  name: "Martin Machtl Perfler"
+  avatar: "/assets/img/machtl_profile"   # optional
+  bio: "Snow crystals take a long path before falling onto our beautiful mountain landscapes
+        and to be ready to draw a line in.<br>
+        My path has led me from engineering and tightening screws on spacecraft to
+        the question, <i>Is this the line I want to take?</i>. Following my inner call for snow,
+        I ended up here, somewhere between mountains and code...<br><br>
+        + Snow and Avalanches <br>
+        + Model development <br>
+        + Mountains "
+"
+  location: "Squamish, Canada"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:you@email.com"
+      url: "mailto:martin_perfler@sfu.ca"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/YOURUSERNAME"
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "#"
+      url: "https://github.com/machtlp"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/machtl"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/ma.machtl/
 
 # Defaults
 defaults:
