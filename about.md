@@ -1,6 +1,9 @@
 ---
 title: "My life in a nutshell"
 permalink: /about/
+classes: wide
+header: 
+    overlay_image: "./assets/img/header/Ginpeak.jpg"
 ---
 
 - Grew up in Tyrol, Austria, where snow and mountains quietly shaped who I am  

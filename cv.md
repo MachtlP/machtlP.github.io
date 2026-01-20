@@ -3,7 +3,7 @@ title: "CV"
 permalink: /cv/
 classes: wide
 header: 
-    overlay_image: "/assets/header/Ginpeak.jpg"
+    overlay_image: "../assets/header/Ginpeak.jpg"
 ---
 
 ## Education
@@ -104,10 +104,13 @@ PhD — Simon Fraser University (2025– )
 ## Programming & Tools
 <p class="list-inline dev-icons atab">
     <a href="https://www.python.org"  >
-        <img src="../images/icons/python.png" alt="Python" style="width: 11%; margin:1%;" />
+        <img src="{{ site.baseurl }}/assets/img/icons/python.png" alt="Python" style="width: 11%; margin:1%;" />
     </a>
     <a href="https://www.mathworks.com/products/matlab.html"  >
-        <img src="../images/icons/matlab.png" alt="Matlab" style="width: 11%; margin:1%;" /> 
+        <img src="{{ site.baseurl }}/assets/img/icons/matlab.png" alt="Matlab" style="width: 11%; margin:1%;" /> 
+    </a>
+    <a href="https://docs.posit.co/ide/user/"  >
+        <img src="{{ site.baseurl }}/assets/img/icons/rstudio.png" alt="RStudio" style="width: 11%; margin:1%;" /> 
     </a>
 </p>
 
