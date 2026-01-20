@@ -70,70 +70,84 @@ header:
 </div> 
 
 ---
+## Work Experience
 <div class="work-experience">
 
   <div class="work-column">
-    <h3>Snow & Avalanche</h3>
-
+    <h3>❄️  Snow & Avalanche</h3>
+<!-- freelance-->
     <div class="work-entry">
-      <strong>Sep 2024 – Present</strong><br>
-      Simon Fraser University — Avalanche Research Program<br>
-      <em>SNOWPACK modelling, avalanche forecasting, field studies</em>
+      <strong>Dec 2023 – Present</strong> <br>
+      R&D SNOWPACK  *(Freelancer)<br>
+      · Developer for
+      <a href="https://gitlab.com/groups/avalanche-warning/-/wikis/home" target="_blank" rel="noopener">
+     <strong>AWSOME</strong>
+  </a>(Avalanche Warning Service Meteo Environment)
     </div>
+<!-- AVCAN -->
+<div class="work-entry">
 
-    <div class="work-entry">
-      <strong>2021 – 2024</strong><br>
-      Avalanche Warning Service Tyrol<br>
-      <em>Operational forecasting, field observations</em>
-    </div>
-  </div>
+  <strong>Jan 2025 – Aug 2026</strong><br>
+  SFU and Avlanche Canada Fieldwork exchange
 
-  <div class="work-column">
-    <h3>Engineering & Technology</h3>
-
-    <div class="work-entry">
-      <strong>2019 – 2021</strong><br>
-      Aerospace Engineering Project<br>
-      <em>Systems engineering, hardware integration</em>
-    </div>
-
-    <div class="work-entry">
-      <strong>2016 – 2019</strong><br>
-      Mechanical Engineering Role<br>
-      <em>Design, testing, manufacturing</em>
-    </div>
-  </div>
-
+  <em>· Support of Vancouver Island Fieldteam</em><br>
+  
 </div>
 
 
+<!-- ÖGSL -->
+ <div class="work-entry">
+  <img src="/assets/img/icons/oegsl.png" class="entry-icon" alt="ÖGSL logo">
 
-## Work Experience
+  <strong>Jan 2023 – Aug 2024</strong><br>
+  General Manager Austrian Association for SNOW and Avalanches
+  <a href="https://www.oegsl.at" target="_blank" rel="noopener">
+    <strong>ÖGSL</strong>
+  </a><br>
 
-### R&D SNOWPACK Modeler *(Freelancer)*  
-**Dec 2023 – Present** 
-- Developer for **AWSOME** (Avalanche Warning Service Meteo Environment)
+  <em>· Organization of talks and workshops</em><br>
+  <em>· Member management</em><br>
+  <em>· Social media representation</em><br>
+</div>
 
-### General Manager  
-**Jan 2023 – Aug 2024** · Austrian Association for Snow and Avalanches (ÖGSL), Innsbruck  
-- Organization of talks and workshops  
-- Member management  
-- Social media representation  
+<!-- LWD -->
+<div class="work-entry">
 
-### R&D – Avalanche Warning Service Tyrol  
-**Oct 2021 – Nov 2022** · Innsbruck, Austria  
-- Support for operational forecasters  
-- Cluster analysis of avalanche micro-regions  
-- SNOWPACK modeling for avalanche problem forecasting  
-- Fieldwork and data collection  
+  <strong>Oct 2021 – Nov 2022</strong><br>
+  R&D – Avalanche Warning Service Tyrol Innsbruck, Austria  
+  <a href="https://avalanche.report" target="_blank" rel="noopener">
+    <strong>LWD</strong>
+  </a><br><br>
+  <img src="/assets/img/icons/av_report.png" class="entry-icon" alt="LWD"><br>
 
-### Fluidic Test Engineer  
-**Sep 2017 – Apr 2019** · ArianeGroup, Bremen, Germany  
-- Fluidic verification and qualification of  
-  - Ariane 5 & 6 Upper Liquid Propulsion Modules  
-  - Orion ESM-MPCV  
-- Development of SOPs for Ariane 6 qualification tests  
-- Project management of ground test systems  
+  <em>· Support for operational forecasters s</em><br>
+  <em>· Cluster analysis of avalanche micro-regions </em><br>
+  <em>· SNOWPACK modeling for avalanche problem forecasting</em><br>
+  <em>· Fieldwork and data collection </em><br>
+</div>
+
+
+  </div>
+
+<!-- Engineering -->
+<!-- Ariane -->
+  <div class="work-column">
+    <h3> 🛠 Engineering & Technology</h3>
+
+<div class="work-entry">
+      <strong>Sep 2017 – Apr 2019</strong><br>
+        Fluidic Test Engineer · ArianeGroup, Bremen, Germany    <br>
+        <img src="/assets/img/icons/arianeg.png" class="entry-icon" alt="ariane"><br><br>
+        <em>Fluidic verification and qualification of Ariane 5 & 6 Upper Liquid Propulsion Modules & Orion ESM-MPCV</em><br>
+        <em>· Development of SOPs for Ariane 6 qualification tests </em><br>
+        <em>· Project management of ground test systems </em><br>
+    </div>
+
+   
+  </div>
+
+</div>
+ 
 
 ---
 

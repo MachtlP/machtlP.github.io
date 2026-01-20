@@ -21,3 +21,31 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.work-experience {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
+}
+
+
+.work-column h3 {
+  margin-top: 0;
+  border-bottom: 2px solid rgba(255,255,255,0.2); /* adjust for light/dark */
+  padding-bottom: 0.3rem;
+}
+
+.work-entry {
+  margin-bottom: 1.2rem;
+}
+.work-column {
+  background: rgba(255,255,255,0.03);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.entry-icon {
+  height: 3em;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}

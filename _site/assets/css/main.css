@@ -1319,3 +1319,13 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .icon-inline { height: 2em; background: rgba(255, 255, 255, 0.95); padding: 0.35em; border-radius: 8px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05); }
 
 .line-with-icon { display: flex; align-items: center; justify-content: space-between; }
+
+.work-experience { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2rem; }
+
+.work-column h3 { margin-top: 0; border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* adjust for light/dark */ padding-bottom: 0.3rem; }
+
+.work-entry { margin-bottom: 1.2rem; }
+
+.work-column { background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 12px; }
+
+.entry-icon { height: 3em; vertical-align: middle; margin-right: 0.5rem; }
