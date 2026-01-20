@@ -1,0 +1,49 @@
+title: "Martin Perfler"
+description: "Snow • Mountains • Research • Code"
+url: "https://YOURUSERNAME.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+# Appearance
+minimal_mistakes_skin: "air"   # modern & clean
+locale: "en-CA"
+
+# Author sidebar
+author:
+  name: "Your Name"
+  avatar: "/assets/img/avatar.jpg"   # optional
+  bio: "PhD researcher working on snowpack modelling, avalanche forecasting, and mountain systems."
+  location: "Canada"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:you@email.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/YOURUSERNAME"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "#"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      toc: false
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
