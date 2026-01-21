@@ -2,10 +2,17 @@
 # Only the main Sass file needs front matter
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@charset "utf-8";
+
+/* Pull in the skin chosen in _config.yml (dark, default, etc.) */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+/* Pull in the rest of the theme */
 @import "minimal-mistakes";
 
 /* === Your custom styles go below === */
+
+
 
 .icon-inline {
   height: 2em;
