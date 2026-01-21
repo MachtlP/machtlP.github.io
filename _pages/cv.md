@@ -55,7 +55,7 @@ header:
     <strong>Sep 2013 – Sep 2016</strong> ·  MCI, Innsbruck, Austria<br>
     Department of Environmental, Process & Energy Engineering (<a href="https://www.mci.edu/en/study/bachelor/environmental-process-energy-engineering">UVET</a>)
   </span>
-  <img src="/assets/img/icons/mci.png" class="icon-inline" alt="MCI">
+  <img src="/assets/img/icons/MCI.png" class="icon-inline" alt="MCI">
 </div> 
 
 - **Thesis:**  
