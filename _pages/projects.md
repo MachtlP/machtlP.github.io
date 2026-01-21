@@ -9,3 +9,7 @@ header:
 entries_layout: grid
 ---
 
+{% assign items = site.projects | sort: "title" %}
+{% for post in items %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
