@@ -3,6 +3,18 @@
   
   
   <url>
+    <loc>http://localhost:4000/about/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/cv/</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/</loc>
   </url>
   
@@ -10,6 +22,18 @@
   
   <url>
     <loc>http://localhost:4000/assets/css/main.css</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/projects/</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/research/</loc>
   </url>
   
   
