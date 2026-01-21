@@ -2,14 +2,17 @@
 title: "Projects"
 permalink: /projects/
 layout: single
-author_profile: true
 classes: wide
-header: 
-    overlay_image: "../assets/img/header/Ginpeak.jpg"
 entries_layout: grid
+author_profile: true
 ---
 
-{% assign items = site.projects | sort: "title" %}
-{% for post in items %}
+{% assign project_pages = site.pages
+  | where_exp: "p", "p.url != nil"
+  | where_exp: "p", "p.url contains '/projects/'"
+  | where_exp: "p", "p.url != '/projects/'"
+  | sort: "title" %}
+
+{% for post in project_pages %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
