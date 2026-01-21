@@ -4,13 +4,14 @@ url: "https://machtlp.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark"
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
 
 # Appearance
-minimal_mistakes_skin: "dark"   # modern & clean
+
 
 
 # Site Settings

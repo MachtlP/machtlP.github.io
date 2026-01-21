@@ -104,7 +104,7 @@ header:
   General Manager Austrian Association for SNOW and Avalanches
   <a href="https://www.oegsl.at" target="_blank" rel="noopener">
     <strong>ÖGSL</strong>
-    <img src="/assets/img/icons/oegsl.png" class="icon-inline" alt="ÖGSL logo">
+    <img src="/assets/img/icons/oegsl.png" class="entry-icon" alt="ÖGSL logo">
   </a><br>
 
   <em>· Organization of talks and workshops</em><br>
@@ -120,7 +120,7 @@ header:
   <a href="https://avalanche.report" target="_blank" rel="noopener">
     <strong>LWD</strong>
   </a><br><br>
-  <img src="/assets/img/icons/av_report.png" class="icon-inline" alt="LWD"><br>
+  <img src="/assets/img/icons/av_report.png" class="entry-icon"alt="LWD"><br>
 
   <em>· Support for operational forecasters s</em><br>
   <em>· Cluster analysis of avalanche micro-regions </em><br>
@@ -139,7 +139,7 @@ header:
 <div class="work-entry">
       <strong>Sep 2017 – Apr 2019</strong><br>
         Fluidic Test Engineer · ArianeGroup, Bremen, Germany    <br>
-        <img src="/assets/img/icons/arianeg.png" class="icon-inline" alt="ariane"><br><br>
+        <img src="/assets/img/icons/arianeg.png" class="entry-icon" alt="ariane"><br><br>
         <em>Fluidic verification and qualification of Ariane 5 & 6 Upper Liquid Propulsion Modules & Orion ESM-MPCV</em><br>
         <em>· Development of SOPs for Ariane 6 qualification tests </em><br>
         <em>· Project management of ground test systems </em><br>
@@ -148,13 +148,13 @@ header:
 <div class="work-entry">
       <strong>Jul 2016 – Apr 2017</strong><br>
         Engineer · Ortner GmbH, Innsbruck Austria    <br>
-        <img src="/assets/img/icons/ortner.jpg" class="icon-inline" alt="ortner"><br><br>
+        <img src="/assets/img/icons/ortner.jpg" class="entry-icon" alt="ortner"><br><br>
     </div>
 
 <div class="work-entry">
       <strong>May 2012 – Apr 2013</strong><br>
         Engineer · STASTO Automation, Innsbruck Austria    <br>
-        <img src="/assets/img/icons/Stasto.jpg" class="icon-inline" alt="Stasto"><br><br>
+        <img src="/assets/img/icons/Stasto.jpg" class="entry-icon" alt="Stasto"><br><br>
     </div>
 
 

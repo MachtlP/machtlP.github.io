@@ -1,3 +1,4 @@
+minimal_mistakes_skin: "dark"
 theme: minimal-mistakes-jekyll
 remote_theme: null
 plugins:
@@ -5,4 +6,3 @@ plugins:
   - jekyll-sitemap
 include:
   - _pages
-minimal_mistakes_skin: "dark"
