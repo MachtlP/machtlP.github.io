@@ -6,6 +6,7 @@ header:
     overlay_image: "./assets/img/header/facet.jpg"
 ---
 
+
 ## Academic Education
 
 ### PhD in Geography *(Snow Science)*  

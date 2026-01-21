@@ -6,9 +6,6 @@ classes: wide
 header: 
     overlay_image: "../assets/img/header/Ginpeak.jpg"
 ---
-collection: pages
-...
----
 
     
 ---
