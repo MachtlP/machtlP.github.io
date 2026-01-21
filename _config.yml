@@ -145,10 +145,7 @@ include:
   - .htaccess
   - _pages
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+
 
 # Defaults
 defaults:
