@@ -57,3 +57,13 @@
   margin-right: 0.5rem;
   border-radius: 8px;
 }
+
+/* Center author avatar in sidebar */
+.author__avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.author__avatar img {
+  margin: 0 auto;
+}
