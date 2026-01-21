@@ -5,3 +5,4 @@ plugins:
   - jekyll-sitemap
 include:
   - _pages
+minimal_mistakes_skin: "dark"

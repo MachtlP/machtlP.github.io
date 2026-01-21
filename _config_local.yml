@@ -1,3 +1,4 @@
 theme: minimal-mistakes-jekyll
 remote_theme: null
 plugins: []
+minimal_mistakes_skin: "dark"

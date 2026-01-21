@@ -98,12 +98,13 @@ header:
 
 <!-- ÖGSL -->
  <div class="work-entry">
-  <img src="/assets/img/icons/oegsl.png" class="entry-icon" alt="ÖGSL logo">
+  
 
   <strong>Jan 2023 – Aug 2024</strong><br>
   General Manager Austrian Association for SNOW and Avalanches
   <a href="https://www.oegsl.at" target="_blank" rel="noopener">
     <strong>ÖGSL</strong>
+    <img src="/assets/img/icons/oegsl.png" class="entry-icon" alt="ÖGSL logo">
   </a><br>
 
   <em>· Organization of talks and workshops</em><br>
@@ -147,13 +148,13 @@ header:
 <div class="work-entry">
       <strong>Jul 2016 – Apr 2017</strong><br>
         Engineer · Ortner GmbH, Innsbruck Austroa    <br>
-        <img src="/assets/img/icons/ortner.png" class="entry-icon" alt="ortner"><br><br>
+        <img src="/assets/img/icons/ortner.jpg class="entry-icon" alt="ortner"><br><br>
     </div>
 
 <div class="work-entry">
       <strong>May 2012 – Apr 2013</strong><br>
         Engineer · STASTO Automation, Innsbruck Austroa    <br>
-        <img src="/assets/img/icons/Stasto.png" class="entry-icon" alt="Stasto"><br><br>
+        <img src="/assets/img/icons/Stasto.jpg" class="entry-icon" alt="Stasto"><br><br>
     </div>
 
 
