@@ -1,0 +1,7 @@
+theme: minimal-mistakes-jekyll
+remote_theme: null
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+include:
+  - _pages
