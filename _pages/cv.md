@@ -144,7 +144,19 @@ header:
         <em>· Project management of ground test systems </em><br>
     </div>
 
-   
+<div class="work-entry">
+      <strong>Jul 2016 – Apr 2017</strong><br>
+        Engineer · Ortner GmbH, Innsbruck Austroa    <br>
+        <img src="/assets/img/icons/ortner.png" class="entry-icon" alt="ortner"><br><br>
+    </div>
+
+<div class="work-entry">
+      <strong>May 2012 – Apr 2013</strong><br>
+        Engineer · STASTO Automation, Innsbruck Austroa    <br>
+        <img src="/assets/img/icons/Stasto.png" class="entry-icon" alt="Stasto"><br><br>
+    </div>
+
+
   </div>
 
 </div>
