@@ -1,0 +1,15 @@
+---
+title: "Sprinter Conversion"
+excerpt: "NWP-driven SNOWPACK runs + verification ideas."
+categories: [Craft]
+tags: [Craft]
+header:
+  teaser: /assets/img/projects/teasers/sprinter_teaser.jpg
+---
+
+{% assign items = site.projects | where_exp: "p", "p.categories contains 'research'" %}
+<div class="entries-{{ page.entries_layout | default: 'grid' }}">
+  {% for p in items %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
