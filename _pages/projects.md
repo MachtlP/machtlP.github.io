@@ -9,12 +9,14 @@ header:
     overlay_image: "../assets/img/header/koegl_down.jpeg"
 ---
 
-{% assign project_pages = site.pages
-  | where_exp: "p", "p.url != nil"
+{% assign candidates = site.pages | concat: site.collections.pages.docs %}
+
+{% assign project_pages = candidates
   | where_exp: "p", "p.url contains '/projects/'"
   | where_exp: "p", "p.url != '/projects/'"
   | sort: "title" %}
 
 {% for p in project_pages %}
-  {% include archive-single.html type="grid" post=p link=p.external_url %}
+  {% include archive-single.html type="grid" post=p %}
 {% endfor %}
+
