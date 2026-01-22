@@ -1,6 +1,6 @@
 ---
 title: "Skitouren Guidebook"
-permalink: /projects/snowprofile-viewer/
+permalink: /projects/SkitouringGuidebook/
 excerpt: "Skitouren · GPX Tracks · Map "
 layout: single
 header:
