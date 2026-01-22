@@ -4,16 +4,14 @@ permalink: /projects/
 layout: single
 classes: wide
 entries_layout: grid
+author_profile: false
 
 header: 
     overlay_image: "../assets/img/header/koegl_down.jpeg"
 ---
 
-{% assign candidates = site.pages | concat: site.collections.pages.docs %}
-
-{% assign project_pages = candidates
-  | where_exp: "p", "p.url contains '/projects/'"
-  | where_exp: "p", "p.url != '/projects/'"
+{% assign project_pages = site.pages
+  | where_exp: "p", "p.path contains '_pages/projects/'"
   | sort: "title" %}
 
 {% for p in project_pages %}
