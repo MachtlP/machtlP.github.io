@@ -4,7 +4,10 @@ permalink: /projects/
 layout: single
 classes: wide
 entries_layout: grid
-author_profile: true
+author_profile: false
+
+header: 
+    overlay_image: "../assets/img/header/koegl_down.jpeg"
 ---
 
 {% assign project_pages = site.pages
@@ -14,5 +17,7 @@ author_profile: true
   | sort: "title" %}
 
 {% for post in project_pages %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html 
+  type="grid" 
+  link=post.external_url %}
 {% endfor %}
