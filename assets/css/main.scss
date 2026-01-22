@@ -67,3 +67,32 @@
 .author__avatar img {
   margin: 0 auto;
 }
+
+/* Bigger project teaser images */
+.archive__item-teaser {
+  aspect-ratio: 4 / 3;   /* change to 16 / 9 if you prefer */
+  overflow: hidden;
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Make teaser link clean (no underline, black text) */
+
+
+.archive__item a:hover {
+  text-decoration: none;
+}
+
+.archive__item a {
+  color: var(--mm-text-color);
+  text-decoration: none;
+}
+/* Hide excerpt in project grid */
+.archive__item-excerpt {
+  display: none;
+}

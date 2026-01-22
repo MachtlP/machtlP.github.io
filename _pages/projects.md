@@ -4,7 +4,6 @@ permalink: /projects/
 layout: single
 classes: wide
 entries_layout: grid
-author_profile: false
 
 header: 
     overlay_image: "../assets/img/header/koegl_down.jpeg"
@@ -16,8 +15,6 @@ header:
   | where_exp: "p", "p.url != '/projects/'"
   | sort: "title" %}
 
-{% for post in project_pages %}
-  {% include archive-single.html 
-  type="grid" 
-  link=post.external_url %}
+{% for p in project_pages %}
+  {% include archive-single.html type="grid" post=p link=p.external_url %}
 {% endfor %}
