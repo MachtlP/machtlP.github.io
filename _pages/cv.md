@@ -119,9 +119,8 @@ header:
   R&D – Avalanche Warning Service Tyrol Innsbruck, Austria  
   <a href="https://avalanche.report" target="_blank" rel="noopener">
     <strong>LWD</strong>
-  </a><br><br>
-  <img src="/assets/img/icons/av_report.png" class="entry-icon"alt="LWD"><br>
-
+    <img src="/assets/img/icons/av_report.png" class="entry-icon"alt="LWD"><br>
+  </a><br>
   <em>· Support for operational forecasters s</em><br>
   <em>· Cluster analysis of avalanche micro-regions </em><br>
   <em>· SNOWPACK modeling for avalanche problem forecasting</em><br>
@@ -140,7 +139,7 @@ header:
       <strong>Sep 2017 – Apr 2019</strong><br>
         Fluidic Test Engineer · ArianeGroup, Bremen, Germany    <br>
         <img src="/assets/img/icons/arianeg.png" class="entry-icon" alt="ariane"><br><br>
-        <em>Fluidic verification and qualification of Ariane 5 & 6 Upper Liquid Propulsion Modules & Orion ESM-MPCV</em><br>
+        <em>· Fluidic verification and qualification of Ariane 5 & 6 Upper Liquid Propulsion Modules & Orion ESM-MPCV</em><br>
         <em>· Development of SOPs for Ariane 6 qualification tests </em><br>
         <em>· Project management of ground test systems </em><br>
     </div>
