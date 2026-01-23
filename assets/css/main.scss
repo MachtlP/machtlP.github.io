@@ -157,3 +157,10 @@
   object-fit: cover;
   display: block;
 }
+.image-gallery__item img {
+  transition: transform 0.25s ease;
+}
+
+.image-gallery__item:hover img {
+  transform: scale(1.03);
+}
