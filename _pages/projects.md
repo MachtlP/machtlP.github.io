@@ -13,8 +13,7 @@ feature_row:
   - image_path: /assets/img/projects/teaser/sprinter_teaser.jpeg
     image_title: "Sprinter Conversion"
     url: "/projects/sprinterconversion/"
-    btn_label: "Open"
-    btn_class: "btn--primary"
+    
 
 
 

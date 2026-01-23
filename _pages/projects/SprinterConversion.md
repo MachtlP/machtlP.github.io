@@ -2,6 +2,7 @@
 title: "Sprinter Conversion"
 permalink: /projects/sprinterconversion/
 excerpt: "Sprinter Conversion"
+author_profile: false
 header:
   teaser: /assets/img/projects/teaser/sprinter_teaser.jpeg
 layout: single
