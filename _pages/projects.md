@@ -15,7 +15,7 @@ feature_row:
     url: "/projects/sprinterconversion/"
   - image_path: /assets/img/header/Ginpeak.jpg
     image_title: "Skitouren Guidebook"
-    url: "/projects/skitour/"
+    url: https://machtlp.github.io/SkiTouring.github.io/
 
 
 
