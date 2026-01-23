@@ -69,93 +69,52 @@
   margin: 0 auto;
 }
 
-/* Bigger project teaser images */
-.archive__item-teaser {
-  aspect-ratio: 4 / 3;   /* change to 16 / 9 if you prefer */
-  overflow: hidden;
-}
+/* ===============================
+   FEATURE ROW IMAGE TITLE OVERLAY
+   =============================== */
 
-.archive__item-teaser img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 14px;
-}
-
-/* Make teaser link clean (no underline, black text) */
-
-
-.archive__item a:hover {
-  text-decoration: none;
-}
-
-.archive__item a {
-  color: var(--mm-text-color);
-  text-decoration: none;
-}
-/* Hide excerpt in project grid */
-.archive__item-excerpt {
-  display: none;
-}
-
-
-/* Make feature_row teaser the positioning context */
+/* The teaser image is the positioning context */
 .feature__item .archive__item-teaser {
   position: relative;
 }
 
-/* Title overlay bottom-right */
+/* Title overlay — bottom RIGHT, white, no link styling */
 .feature__item .archive__item-caption_title {
   position: absolute;
   right: 1rem;
   bottom: 0.9rem;
-  margin: 0;
+  z-index: 10;
 
-  color: #fff;
-  font-weight: 600;
-  font-size: 1.15rem;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.75);
-
-  /* IMPORTANT: don't block clicks on the underlying link */
-  pointer-events: none;
-}
-
-/* Optional: subtle hover effect so it feels clickable */
-.feature__item a .archive__item-teaser img {
-  transition: transform 0.18s ease, filter 0.18s ease;
-}
-
-.feature__item a:hover .archive__item-teaser img {
-  transform: scale(1.02);
-  filter: brightness(0.92);
-}
-/* Ensure the teaser is the positioning context */
-.archive__item-teaser {
-  position: relative;
-}
-
-/* Put the caption on top of the teaser image */
-.archive__item-caption_title {
-  position: absolute;
-  left: 1rem;
-  bottom: 0.9rem;
-  z-index: 5;
-
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
   font-size: 1.15rem;
   line-height: 1.2;
 
+  text-decoration: none !important;
+  border-bottom: none !important;
+
   text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+  pointer-events: none; /* keep image clickable */
+}
+
+/* Kill link styling inherited from parent <a> */
+.feature__item a,
+.feature__item a:hover,
+.feature__item a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.feature__item .archive__item-teaser::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.35) 0%,
+    rgba(0,0,0,0.15) 40%,
+    rgba(0,0,0,0.0) 65%
+  );
+  z-index: 5;
   pointer-events: none;
-}
-
-/* In case the theme sets caption wrapper styles that hide it */
-.archive__item-caption {
-  position: static;
-}
-
-/* Make sure the teaser doesn't clip the caption unexpectedly */
-.archive__item-teaser {
-  overflow: visible;
 }
