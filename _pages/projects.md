@@ -3,18 +3,23 @@ title: "Projects"
 permalink: /projects/
 layout: single
 classes: wide
-entries_layout: grid
-author_profile: false
+authhor_profile: false
+author_profile: splash
 
 header: 
     overlay_image: "../assets/img/header/koegl_down.jpeg"
+
+
+feature_row:
+  - image_path: /assets/img/teaser/sprinter_teaser.jpeg
+    image_title: "Sprinter Conversion"
+    url: "/sprinterconversion/"
+ 
+
+
+
+
 ---
 
-{% assign project_pages = site.html_pages
-  | where_exp: "p", "p.path contains '_pages/projects/'"
-  | sort: "title" %}
-
-{% for p in project_pages %}
-  {% include archive-single.html type="grid" post=p %}
-{% endfor %}
+{% include feature_row %}
 

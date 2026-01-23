@@ -1,6 +1,6 @@
 ---
 title: "Sprinter Conversion"
-permalink: /projects/SprinterConversion
+permalink: /projects/S´sprinterconversion
 excerpt: "Sprinter Conversion"
 header:
   teaser: /assets/img/projects/teaser/sprinter_teaser.jpeg
