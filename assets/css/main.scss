@@ -138,3 +138,22 @@
   object-fit: cover;         /* THIS does the cropping */
   display: block;
 }
+
+/* ===============================
+   IMAGE GALLERY — UNIFORM 16:9
+   =============================== */
+
+.image-gallery__item {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+
+/* Crop images to fill the box */
+.image-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
