@@ -1,10 +1,9 @@
 ---
 title: "Projects"
 permalink: /projects/
-layout: single
 classes: wide
-authhor_profile: false
-author_profile: splash
+author_profile: false
+layout: splash
 
 header: 
     overlay_image: "../assets/img/header/koegl_down.jpeg"
