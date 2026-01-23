@@ -10,10 +10,11 @@ header:
 
 
 feature_row:
-  - image_path: /assets/img/teaser/sprinter_teaser.jpeg
+  - image_path: /assets/img/projects/teaser/sprinter_teaser.jpeg
     image_title: "Sprinter Conversion"
-    url: "/sprinterconversion/"
- 
+    url: "/projects/sprinterconversion/"
+    btn_label: "Open"
+    btn_class: "btn--primary"
 
 
 

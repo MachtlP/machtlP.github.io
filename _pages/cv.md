@@ -101,7 +101,7 @@ header:
   
 
   <strong>Jan 2023 – Aug 2024</strong><br>
-  General Manager Austrian Association for SNOW and Avalanches
+  General Manager Austrian Association for SNOW and Avalanches<br>
   <a href="https://www.oegsl.at" target="_blank" rel="noopener">
     <strong>ÖGSL</strong>
     <img src="/assets/img/icons/oegsl.png" class="entry-icon" alt="ÖGSL logo">
@@ -116,11 +116,12 @@ header:
 <div class="work-entry">
 
   <strong>Oct 2021 – Nov 2022</strong><br>
-  R&D – Avalanche Warning Service Tyrol Innsbruck, Austria  
+  R&D – Avalanche Warning Service Tyrol Innsbruck, Austria  <br>
   <a href="https://avalanche.report" target="_blank" rel="noopener">
     <strong>LWD</strong>
-    <img src="/assets/img/icons/av_report.png" class="entry-icon"alt="LWD"><br>
+    <img src="/assets/img/icons/av_report.png"  class="entry-icon" alt="LWD">
   </a><br>
+
   <em>· Support for operational forecasters s</em><br>
   <em>· Cluster analysis of avalanche micro-regions </em><br>
   <em>· SNOWPACK modeling for avalanche problem forecasting</em><br>
