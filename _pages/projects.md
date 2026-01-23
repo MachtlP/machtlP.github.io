@@ -13,7 +13,9 @@ feature_row:
   - image_path: /assets/img/projects/teaser/sprinter_teaser.jpeg
     image_title: "Sprinter Conversion"
     url: "/projects/sprinterconversion/"
-    
+  - image_path: /assets/img/header/Ginpeak.jpg
+    image_title: "Skitouren Guidebook"
+    url: "/projects/skitour/"
 
 
 
