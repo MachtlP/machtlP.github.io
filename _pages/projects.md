@@ -10,7 +10,7 @@ header:
     overlay_image: "../assets/img/header/koegl_down.jpeg"
 ---
 
-{% assign project_pages = site.pages
+{% assign project_pages = site.html_pages
   | where_exp: "p", "p.path contains '_pages/projects/'"
   | sort: "title" %}
 
