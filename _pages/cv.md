@@ -156,8 +156,14 @@ header:
         Engineer · STASTO Automation, Innsbruck Austria    <br>
         <img src="/assets/img/icons/Stasto.jpg" class="entry-icon" alt="Stasto"><br><br>
     </div>
-
-
+<div class="work-entry">
+      <strong> 2020 – 2021</strong><br>
+       Carpenter assistant   <br>
+    </div>
+<div class="work-entry">
+      <strong> 2007 – 2011</strong><br>
+       Metalworker   <br>
+    </div>
   </div>
 
 </div>
