@@ -118,3 +118,23 @@
   z-index: 5;
   pointer-events: none;
 }
+/* ===============================
+   UNIFORM FEATURE ROW TEASERS
+   =============================== */
+
+/* Fix the teaser box size */
+.feature__item .archive__item-teaser {
+  aspect-ratio: 16 / 9;        /* change to 16 / 9 if you prefer */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 14px;
+}
+
+/* Force image to fill & crop */
+.feature__item .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* THIS does the cropping */
+  display: block;
+}
