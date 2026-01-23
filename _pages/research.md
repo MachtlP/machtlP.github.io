@@ -10,8 +10,7 @@ header:
 
 
 ## What I work on
-Short intro…
-
+With my research, I aim to enhance the accessibility and relevance of snowpack simulations for operational avalanche forecasting. My initial work in snow science focused on refining an algorithm to generate a first objective estimate of the prevailing avalanche problems based on snowpack simulations. Currently, I am exploring ways to make modeled data more accessible and better aligned with the needs of avalanche forecasters. Ultimately, my research seeks to help modernize operational avalanche forecasting and contribute to improved forecastability.
 
 ## Publications & Talks
 
