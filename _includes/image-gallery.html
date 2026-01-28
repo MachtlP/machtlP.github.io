@@ -1,96 +1,108 @@
 <style>
+  /* ===== Gallery grid ===== */
   .image-gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:12px;
-    padding:0;
-    margin:0;
-    list-style:none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
 
-  .image-gallery li{margin:0}
+  .image-gallery li{
+    margin: 0;
+  }
 
-  .image-gallery a{text-decoration:none;color:inherit}
+  .image-gallery a{
+    display: block;
+    text-decoration: none !important;
+    color: inherit;
+  }
 
+  /* ===== Thumbnail tile ===== */
   .image-gallery .tile{
-    border-radius:14px;
-    overflow:hidden;
-    aspect-ratio:16/9;
-    background:rgba(0,0,0,.04);
+    border-radius: 14px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background: rgba(0,0,0,.04);
   }
 
   .image-gallery img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    display:block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
-  /* ---------- LIGHTBOX ---------- */
+  /* ===== Lightbox ===== */
   .lightbox{
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.85);
-    opacity:0;
-    pointer-events:none;
-    transition:opacity .2s ease;
-    z-index:1000;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.85);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s ease;
+    z-index: 1000;
   }
 
   .lightbox:target{
-    opacity:1;
-    pointer-events:auto;
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .lightbox img{
-    max-width:92vw;
-    max-height:92vh;
-    margin:auto;
-    display:block;
-    margin-top:4vh;
+    max-width: 92vw;
+    max-height: 92vh;
+    margin: auto;
+    display: block;
+    margin-top: 4vh;
   }
 
   .lightbox-close{
-    position:absolute;
-    top:20px;
-    right:24px;
-    font-size:28px;
-    color:white;
-    text-decoration:none;
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
   }
 </style>
 
 {%- assign folder = include.folder -%}
+
+{%- assign images = site.static_files
+  | where_exp: "f", "f.path contains folder"
+  | sort: "path"
+-%}
+
 {%- assign index = 0 -%}
 
 <ul class="image-gallery">
-  {%- for file in site.static_files -%}
-    {%- if file.path contains folder -%}
-      {%- if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png'
-         or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' -%}
+  {%- for file in images -%}
+    {%- if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png'
+       or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' -%}
 
-        {%- assign index = index | plus: 1 -%}
-        {%- assign id = "lightbox-" | append: index -%}
+      {%- assign index = index | plus: 1 -%}
+      {%- assign id = "lightbox-" | append: index -%}
 
-        <li>
-          <a href="#{{ id }}">
-            <div class="tile">
-              <img
-                src="{{ file.path | relative_url }}"
-                loading="lazy"
-                decoding="async"
-                alt="">
-            </div>
-          </a>
-        </li>
+      <li>
+        <a href="#{{ id }}">
+          <div class="tile">
+            <img
+              src="{{ file.path | relative_url }}"
+              loading="lazy"
+              decoding="async"
+              alt="">
+          </div>
+        </a>
+      </li>
 
-        <!-- Lightbox -->
-        <div id="{{ id }}" class="lightbox">
-          <a href="#" class="lightbox-close">×</a>
-          <img src="{{ file.path | relative_url }}" alt="">
-        </div>
+      <!-- Lightbox -->
+      <div id="{{ id }}" class="lightbox">
+        <a href="#" class="lightbox-close">×</a>
+        <img src="{{ file.path | relative_url }}" alt="">
+      </div>
 
-      {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
 </ul>
