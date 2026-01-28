@@ -16,146 +16,146 @@
 
 
 .icon-inline {
-  height: 2em;
-  background: rgba(255,255,255,0.95);
-  padding: 0.35em;
-  border-radius: 8px;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+height: 2em;
+background: rgba(255,255,255,0.95);
+padding: 0.35em;
+border-radius: 8px;
+box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
 }
 
 
 .line-with-icon {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .work-experience {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 2rem;
+display: grid;
+grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+gap: 2rem;
 }
 
 
 .work-column h3 {
-  margin-top: 0;
-  border-bottom: 2px solid rgba(255,255,255,0.2); /* adjust for light/dark */
-  padding-bottom: 0.3rem;
+margin-top: 0;
+border-bottom: 2px solid rgba(255,255,255,0.2); /* adjust for light/dark */
+padding-bottom: 0.3rem;
 }
 
 .work-entry {
-  margin-bottom: 1.2rem;
+margin-bottom: 1.2rem;
 }
 .work-column {
-  background: rgba(255,255,255,0.03);
-  padding: 1rem;
-  border-radius: 12px;
+background: rgba(255,255,255,0.03);
+padding: 1rem;
+border-radius: 12px;
 }
 
 .entry-icon {
-  height: 2em;
-  vertical-align: middle;
-  margin-right: 0.5rem;
-  border-radius: 8px;
+height: 2em;
+vertical-align: middle;
+margin-right: 0.5rem;
+border-radius: 8px;
 }
 
 /* Center author avatar in sidebar */
 .author__avatar {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .author__avatar img {
-  margin: 0 auto;
+margin: 0 auto;
 }
 
 /* ===============================
-   FEATURE ROW IMAGE TITLE OVERLAY
-   =============================== */
+  FEATURE ROW IMAGE TITLE OVERLAY
+  =============================== */
 
 /* The teaser image is the positioning context */
 .feature__item .archive__item-teaser {
-  position: relative;
+position: relative;
 }
 
 /* Title overlay — bottom RIGHT, white, no link styling */
 .feature__item .archive__item-caption_title {
-  position: absolute;
-  right: 1rem;
-  bottom: 0.9rem;
-  z-index: 10;
+position: absolute;
+right: 1rem;
+bottom: 0.9rem;
+z-index: 10;
 
-  color: #fff !important;
-  font-weight: 600;
-  font-size: 1.15rem;
-  line-height: 1.2;
+color: #fff !important;
+font-weight: 600;
+font-size: 1.15rem;
+line-height: 1.2;
 
-  text-decoration: none !important;
-  border-bottom: none !important;
+text-decoration: none !important;
+border-bottom: none !important;
 
-  text-shadow: 0 2px 10px rgba(0,0,0,0.75);
-  pointer-events: none; /* keep image clickable */
+text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+pointer-events: none; /* keep image clickable */
 }
 
 /* Kill link styling inherited from parent <a> */
 .feature__item a,
 .feature__item a:hover,
 .feature__item a:visited {
-  text-decoration: none;
-  color: inherit;
+text-decoration: none;
+color: inherit;
 }
 
 .feature__item .archive__item-teaser::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0,0,0,0.35) 0%,
-    rgba(0,0,0,0.15) 40%,
-    rgba(0,0,0,0.0) 65%
-  );
-  z-index: 5;
-  pointer-events: none;
+content: "";
+position: absolute;
+inset: 0;
+background: linear-gradient(
+to top,
+rgba(0,0,0,0.35) 0%,
+rgba(0,0,0,0.15) 40%,
+rgba(0,0,0,0.0) 65%
+);
+z-index: 5;
+pointer-events: none;
 }
 /* ===============================
-   UNIFORM FEATURE ROW TEASERS
-   =============================== */
+  UNIFORM FEATURE ROW TEASERS
+  =============================== */
 
 /* Fix the teaser box size */
 .feature__item .archive__item-teaser {
-  aspect-ratio: 16 / 9;        /* change to 16 / 9 if you prefer */
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  border-radius: 14px;
+aspect-ratio: 16 / 9;        /* change to 16 / 9 if you prefer */
+width: 100%;
+overflow: hidden;
+position: relative;
+border-radius: 14px;
 }
 
 /* Force image to fill & crop */
 .feature__item .archive__item-teaser img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;         /* THIS does the cropping */
-  display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;         /* THIS does the cropping */
+display: block;
 }
 
 /* ===============================
-   IMAGE GALLERY — UNIFORM 16:9
-   =============================== */
+  IMAGE GALLERY — UNIFORM 16:9
+  =============================== */
 
 .image-gallery__item {
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-radius: 14px;
-  position: relative;
+aspect-ratio: 16 / 9;
+overflow: hidden;
+border-radius: 14px;
+position: relative;
 }
 
 /* Crop images to fill the box */
 .image-gallery__item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
 }
 .image-gallery__item img {
   transition: transform 0.25s ease;
@@ -163,9 +163,4 @@
 
 .image-gallery__item:hover img {
   transform: scale(1.03);
-}
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px;
 }

@@ -12,7 +12,7 @@ layout: splash
 This Sprinter conversion grew over years of travel, trial, and hands-on work. It carried unforgettable trips, long nights of welding and rust battles, and the quiet satisfaction of building something piece by piece. Letting it go was bittersweet — sad to say goodbye, but exciting to make room for what comes next.
 
 
-{% include image-gallery.html folder="/assets/img/projects/sprinter/thumbs/" %}
+{% include image-gallery.html folder="/assets/img/projects/sprinter/" %}
 
 <!--
 {% include gallery caption="This is a sample gallery with **Markdown support**." %} 
