@@ -1,51 +1,81 @@
 <style>
-    .image-gallery {
-        overflow: hidden;
-        margin-left: -1% !important;
-    }
+  /* Gallery grid (no floats) */
+  .image-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
 
-    .image-gallery li {
-        float: left;
-        display: block;
-        margin: 5px 5px 5px 5px;
-        width: 31%;
-    }
+  /* Tile: fixed preview box */
+  .image-gallery li{
+    margin: 0;
+  }
 
-    .image-gallery li a {
-        text-align: center;
-        text-decoration: none !important;
-        color: #777;
-    }
+  .image-gallery a{
+    display: block;
+    text-decoration: none !important;
+    color: inherit;
+  }
 
-    .image-gallery li a span {
-        display: block;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        padding: 0px 0px;
-    }
+  .image-gallery .tile{
+    border-radius: 14px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;      /* <-- uniform size */
+    background: rgba(0,0,0,.04);
+  }
 
-    .image-gallery li a img {
-        width: 100%;
-        display: block;
-    }
+  /* Image fills the box, cropping portraits */
+  .image-gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* <-- portrait-safe crop */
+    display: block;
+  }
+
+  /* Optional: subtle hover */
+  .image-gallery a:hover img{
+    transform: scale(1.02);
+    transition: transform .18s ease;
+  }
 </style>
 
-<ul class="image-gallery">{% for file in site.static_files %}{% if file.path contains include.folder %}{% if
-    file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}{% assign
-    filenameparts = file.path | split: "/" %}{% assign filename = filenameparts | last | replace: file.extname,"" %}<li>
-        <a href="{{ file.path | relative_url }}"><img src="{{ file.path | relative_url }}" /><span></span></a></li>{%
-    endif %}{% endif %}{% endfor %}</ul>
+{%- assign folder = include.folder -%}
 
-<!--
+<ul class="image-gallery">
+  {%- for file in site.static_files -%}
+    {%- if file.path contains folder -%}
+      {%- if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png'
+         or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' -%}
 
-        .image-gallery li a span {
-        display: block;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        padding: 3px 0;
-    }
-    
-    <ul class="image-gallery">{% for file in site.static_files %}{% if file.path contains include.folder %}{% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}{% assign filenameparts = file.path | split: "/" %}{% assign filename = filenameparts | last | replace: file.extname,"" %}<li><a href="{{ file.path | relative_url }}" title="{{ filename }}"><img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path | relative_url }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" /><span>{{ filename }}</span></a></li>{% endif %}{% endif %}{% endfor %}</ul>
--->
+        {%- comment -%}
+        Thumb path convention:
+          /assets/.../sprinter/IMG_0001.JPG
+          -> /assets/.../sprinter/thumbs/IMG_0001.JPG
+        Requires you to generate thumbs with same filenames.
+        {%- endcomment -%}
+
+        {%- assign parts = file.path | split: "/" -%}
+        {%- assign filename = parts | last -%}
+        {%- assign dir_parts = parts | slice: 0, parts.size | minus: 1 -%}
+        {%- assign dirpath = dir_parts | join: "/" -%}
+        {%- assign thumb_path = dirpath | append: "/thumbs/" | append: filename -%}
+
+        <li>
+          <a href="{{ file.path | relative_url }}" target="_blank" rel="noopener">
+            <div class="tile">
+              <img
+                src="{{ thumb_path | relative_url }}"
+                alt=""
+                loading="lazy"
+                decoding="async">
+            </div>
+          </a>
+        </li>
+
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
