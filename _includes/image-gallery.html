@@ -9,10 +9,7 @@
     list-style: none;
   }
 
-  /* Tile: fixed preview box */
-  .image-gallery li{
-    margin: 0;
-  }
+  .image-gallery li{ margin: 0; }
 
   .image-gallery a{
     display: block;
@@ -20,25 +17,20 @@
     color: inherit;
   }
 
+  /* Fixed preview box */
   .image-gallery .tile{
     border-radius: 14px;
     overflow: hidden;
-    aspect-ratio: 16 / 9;      /* <-- uniform size */
+    aspect-ratio: 16 / 9;     /* uniform */
     background: rgba(0,0,0,.04);
   }
 
-  /* Image fills the box, cropping portraits */
+  /* Crops portraits nicely */
   .image-gallery img{
     width: 100%;
     height: 100%;
-    object-fit: cover;         /* <-- portrait-safe crop */
+    object-fit: cover;
     display: block;
-  }
-
-  /* Optional: subtle hover */
-  .image-gallery a:hover img{
-    transform: scale(1.02);
-    transition: transform .18s ease;
   }
 </style>
 
@@ -50,24 +42,11 @@
       {%- if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png'
          or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' -%}
 
-        {%- comment -%}
-        Thumb path convention:
-          /assets/.../sprinter/IMG_0001.JPG
-          -> /assets/.../sprinter/thumbs/IMG_0001.JPG
-        Requires you to generate thumbs with same filenames.
-        {%- endcomment -%}
-
-        {%- assign parts = file.path | split: "/" -%}
-        {%- assign filename = parts | last -%}
-        {%- assign dir_parts = parts | slice: 0, parts.size | minus: 1 -%}
-        {%- assign dirpath = dir_parts | join: "/" -%}
-        {%- assign thumb_path = dirpath | append: "/thumbs/" | append: filename -%}
-
         <li>
           <a href="{{ file.path | relative_url }}" target="_blank" rel="noopener">
             <div class="tile">
               <img
-                src="{{ thumb_path | relative_url }}"
+                src="{{ file.path | relative_url }}"
                 alt=""
                 loading="lazy"
                 decoding="async">
