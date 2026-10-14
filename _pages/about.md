@@ -1,5 +1,6 @@
 ---
 title: "My life in a nutshell"
+description: "Martin Perfler grew up in Tyrol, worked on spacecraft, and is now a PhD student in snow science at Simon Fraser University."
 permalink: /about/
 layout: single
 classes: wide

@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description: "Martin Perfler's research on snowpack simulations and operational avalanche forecasting at the SFU Avalanche Research Program."
 permalink: /research/
 layout: single
 author_profile: true

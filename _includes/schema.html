@@ -1,0 +1,57 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ site.social.type | default: "Person" | jsonify }},
+  "name": {{ site.social.name | default: site.name | jsonify }},
+  "url": {{ "/" | absolute_url | jsonify }}
+  {%- if site.social.job_title -%}
+  ,"jobTitle": {{ site.social.job_title | jsonify }}
+  {%- endif -%}
+  {%- if site.social.email -%}
+  ,"email": {{ site.social.email | jsonify }}
+  {%- endif -%}
+  {%- if site.author.avatar -%}
+  ,"image": {{ site.author.avatar | absolute_url | jsonify }}
+  {%- endif -%}
+  {%- if site.author.location -%}
+  ,"homeLocation": {
+    "@type": "Place",
+    "name": {{ site.author.location | jsonify }}
+  }
+  {%- endif -%}
+  {%- if site.social.affiliation -%}
+  ,"affiliation": {
+    "@type": "Organization",
+    "name": {{ site.social.affiliation.name | jsonify }}
+    {%- if site.social.affiliation.url -%}
+    ,"url": {{ site.social.affiliation.url | jsonify }}
+    {%- endif -%}
+  }
+  {%- endif -%}
+  {%- if site.social.member_of -%}
+  ,"memberOf": {
+    "@type": "Organization",
+    "name": {{ site.social.member_of.name | jsonify }}
+    {%- if site.social.member_of.url -%}
+    ,"url": {{ site.social.member_of.url | jsonify }}
+    {%- endif -%}
+  }
+  {%- endif -%}
+  {%- if site.social.alumni_of -%}
+  ,"alumniOf": [
+    {%- for school in site.social.alumni_of -%}
+    {
+      "@type": "CollegeOrUniversity",
+      "name": {{ school.name | jsonify }}
+      {%- if school.url -%}
+      ,"url": {{ school.url | jsonify }}
+      {%- endif -%}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+  {%- endif -%}
+  {%- if site.social.links -%}
+  ,"sameAs": {{ site.social.links | jsonify }}
+  {%- endif %}
+}
+</script>

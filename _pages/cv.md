@@ -1,5 +1,6 @@
 ---
 title: "CV"
+description: "CV of Martin Perfler, PhD candidate in snow science at Simon Fraser University."
 permalink: /cv/
 classes: wide
 header: 

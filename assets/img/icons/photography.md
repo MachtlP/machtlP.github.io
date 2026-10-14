@@ -1,4 +1,5 @@
 ---
+published: false
 # Maybee Media (Photos and Videos)
 # layout: archive
 permalink: /photography/

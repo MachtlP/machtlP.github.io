@@ -1,8 +1,3 @@
-title: "Martin Perfler"
-description: "Snow • Mountains • Research • Code"
-url: "https://machtlp.github.io"
-baseurl: ""
-
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark"
 plugins:
@@ -20,9 +15,9 @@ title                    : "Martin Perfler"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Martin Perfler"
-description              : "Portfolio"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+description              : "Snow • Mountains • Research • Code"
+url                      : "https://machtlp.github.io"
+baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -63,7 +58,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "pwMf2LlIy0c_muIcN6Lm4c6FRn52BQuXz7c0dZrsOwg"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -75,13 +70,31 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/img/header/Ginpeak.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Martin Perfler"
+  job_title              : "PhD Candidate"
+  email                  : "martin_perfler@sfu.ca"
+  affiliation:
+    name                 : "Simon Fraser University"
+    url                  : "https://www.sfu.ca/"
+  member_of:
+    name                 : "SFU Avalanche Research Program"
+    url                  : "https://sfuarp.ca/"
+  alumni_of:
+    - name               : "University of Innsbruck"
+      url                : "https://www.uibk.ac.at/"
+    - name               : "MCI, Innsbruck"
+      url                : "https://www.mci.edu/"
+  links:
+    - "https://sfuarp.ca/team/perfler/"
+    - "https://www.sfu.ca/geography/about/our-people/profiles/martin-perfler.html"
+    - "https://github.com/machtlp"
+    - "https://gitlab.com/machtl"
+    - "https://www.instagram.com/ma.machtl/"
 
 # Analytics
 analytics:
@@ -93,7 +106,7 @@ analytics:
 
 # Author sidebar
 author:
-  name: "Martin <i>Machtl</i> Perfler"
+  name: "Martin Machtl Perfler"
   avatar: "/assets/img/machtl_profile.jpeg"   # optional
   bio: >-
     Snow crystals take a long path before falling onto our beautiful mountain landscapes

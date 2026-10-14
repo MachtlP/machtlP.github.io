@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "Projects by Martin Perfler, including a Sprinter van conversion and a ski-touring guidebook."
 permalink: /projects/
 classes: wide
 author_profile: false
