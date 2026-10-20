@@ -1,0 +1,11 @@
+<div class="paper-strip">
+  {% for paper in page.papers %}
+  <a class="paper-strip__card" href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">
+    <div class="paper-strip__teaser">
+      <img src="{{ paper.image | relative_url }}" alt="{{ paper.alt }}">
+      <span class="paper-strip__label">{{ paper.short }}</span>
+    </div>
+    <p class="paper-strip__title">{{ paper.title }} ({{ paper.year }})</p>
+  </a>
+  {% endfor %}
+</div>

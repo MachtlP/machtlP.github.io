@@ -7,11 +7,32 @@ author_profile: true
 classes: wide
 header: 
     overlay_image: "../assets/img/header/koegl.jpeg"
+papers:
+  - short: "Grid configuration"
+    title: "How does grid configuration influence snowpack representation?"
+    year: "2026"
+    image: "/assets/img/research/2026-grid.jpg"
+    url: "https://arc.lib.montana.edu/snow-science/objects/ISSW2026_P3.39.pdf"
+    alt: "Seasonal new-snow and snow-height plot comparing grid configurations"
+  - short: "Micro-region clustering"
+    title: "Unveiling spatial patterns in avalanche bulletins: clustering analysis of micro-regions using Snowgrid"
+    year: "2024"
+    image: "/assets/img/research/2024-clusters.jpg"
+    url: "https://arc.lib.montana.edu/snow-science/objects/ISSW2024_P1.5.pdf"
+    alt: "Snowgrid cluster maps for four wind directions in the EUREGIO"
+  - short: "Avalanche problems"
+    title: "Assessing avalanche problems for operational avalanche forecasting based on different model chains"
+    year: "2023"
+    image: "/assets/img/research/2023-problems.jpg"
+    url: "https://arc.lib.montana.edu/snow-science/objects/ISSW2023_O4.05.pdf"
+    alt: "Model and forecaster avalanche-problem timeline for winter 2021/22"
 ---
 
 
 ## What I work on
 With my research, I aim to enhance the accessibility and relevance of snowpack simulations for operational avalanche forecasting. My initial work in snow science focused on refining an algorithm to generate a first objective estimate of the prevailing avalanche problems based on snowpack simulations. Currently, I am exploring ways to make modeled data more accessible and better aligned with the needs of avalanche forecasters. Ultimately, my research seeks to help modernize operational avalanche forecasting and contribute to improved forecastability.
+
+{% include paper-strip.html %}
 
 ## Publications & Talks
 

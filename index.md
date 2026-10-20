@@ -8,5 +8,3 @@ header:
 
 ---
 
-Martin Perfler is a PhD candidate in the [SFU Avalanche Research Program](https://sfuarp.ca/team/perfler/), studying snowpack models and avalanche forecasting from Squamish, Canada.
-
