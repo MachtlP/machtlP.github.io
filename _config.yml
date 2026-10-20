@@ -108,15 +108,18 @@ analytics:
 author:
   name: "Martin Machtl Perfler"
   avatar: "/assets/img/machtl_profile.jpeg"   # optional
-  bio: >-
-    Snow crystals take a long path before falling onto our beautiful mountain landscapes
-    and to be ready to draw a line in.<br>
-    My path has led me from engineering and tightening screws on spacecraft to
-    the question, <i>Is this the line I want to take?</i> Following my inner call for snow,
-    I ended up here, somewhere between mountains and code...<br><br>
-    + Snow and Avalanches <br>
-    + Model development <br>
-    + Mountains, Skiing, Paragliding 
+  bio: |
+    Snow crystals take a long path before falling onto our beautiful mountain landscapes and to be ready to draw a line in.
+
+    My path has led me from engineering and tightening screws on spacecraft to the question,
+
+    *Is this the line I want to take?*
+
+    Following my inner call for snow, I ended up here, somewhere between mountains and code….
+
+    \+ Snow and Avalanches  
+    \+ Model development  
+    \+ Mountains, Skiing, Paragliding 
 
 
   location: "Squamish, Canada"

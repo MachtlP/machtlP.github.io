@@ -165,12 +165,7 @@ display: block;
   transform: scale(1.03);
 }
 
-.work-featured {
-  margin-bottom: 1.5rem;
-}
-
-.work-featured .entry-icon {
-  height: 1.7em;
+.entry-icon--light {
   background: #fff;
   padding: 0.15em 0.35em;
   border-radius: 6px;
@@ -202,6 +197,14 @@ display: block;
   .author__urls {
     text-align: center;
   }
+
+  .page__hero .page__title {
+    display: none;
+  }
+}
+
+.author__bio p {
+  margin: 0 0 0.85em;
 }
 
 /* Research paper strip: one row, newest at the left */

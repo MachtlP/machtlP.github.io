@@ -74,15 +74,6 @@ header:
 ---
 ## Work Experience
 
-<div class="work-entry work-featured">
-  <strong>2026 – Present</strong><br>
-  Sauna Operator · Floating Sauna, Squamish<br>
-  <a href="https://inflowadventure.com/pages/sea-to-sky-sauna" target="_blank" rel="noopener">
-    <strong>InFlow Adventure</strong>
-    <img src="/assets/img/icons/inflow.png" class="entry-icon" alt="InFlow Adventure">
-  </a>
-</div>
-
 <div class="work-experience">
 
   <div class="work-column">
@@ -145,7 +136,16 @@ header:
 <!-- Engineering -->
 <!-- Ariane -->
   <div class="work-column">
-    <h3> 🛠 Engineering & Technology</h3>
+    <h3> 🛠 Engineering & Other stuff</h3>
+
+<div class="work-entry">
+  <strong>2026 – Present</strong><br>
+  Sauna Operator · Floating Sauna, Squamish<br>
+  <a href="https://inflowadventure.com/pages/sea-to-sky-sauna" target="_blank" rel="noopener">
+    InFlow Adventure
+    <img src="/assets/img/icons/inflow.png" class="entry-icon entry-icon--light" alt="InFlow Adventure">
+  </a>
+</div>
 
 <div class="work-entry">
       <strong>Sep 2017 – Apr 2019</strong><br>
